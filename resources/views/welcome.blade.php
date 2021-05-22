@@ -81,7 +81,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Hello {{auth()->user()->name ?? ''}}
+                {!!"<script>alert('Hello')</script>"!!}
                 </div>
 
                 <div class="links">
